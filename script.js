@@ -93,7 +93,7 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-  'digitalARThomepage launch is right around the corner',
+  'digital<b>ART</b>homepage launch is right around the corner',
   'Add your NFT to eternal ARTboard',
   'The largest NFT auction potential',
   'Take part in a historic event',
