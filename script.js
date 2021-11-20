@@ -93,13 +93,13 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-  'digitalARThomepage launch is on the corner',
-  'World\'s first NFT art promotion board',
+  'digitalARThomepage launch is right around the corner',
+  'Add your NFT to eternal ARTboard',
+  'The largest NFT auction potential',
   'Take part in a historic event',
-  'Get your own piece of the homepage',
-  'Show your masterpiece for everyone, forever',
-  'Build on smartcontract, deploy on blockchain',
-  'Add your NFT on eternal ARTboard'
+  'Become part of the DAO NFT project',
+  'Show your masterpiece to everyone, forever',
+  'Based on smartcontract, stored on blockchain'
 ]
 
 const el = document.querySelector('.text')
