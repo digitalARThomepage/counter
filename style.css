@@ -54,7 +54,7 @@ header {
   left: 50%;
   text-align: center;
   color: #fff;
-  size: 100%;
+  width: 100%;
   transform: translate(-50%, -50%);
 }
 .content h1 {
