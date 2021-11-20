@@ -93,13 +93,13 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-  'Neo,',
-  'sooner or later',
-  'you\'re going to realize',
-  'just as I did',
-  'that there\'s a difference',
-  'between knowing the path',
-  'and walking the path'
+  'digitalARThomepage',
+  'World\'s first NFT art promotion board',
+  'Take part in historic event',
+  'Get your own piece of the homepage',
+  'Show your masterpiece for everyone, forever',
+  'Build on smartcontract, deploy on blockchain',
+  'Your NFT on the eternal ARTboard'
 ]
 
 const el = document.querySelector('.text')
