@@ -149,7 +149,7 @@ footer {
   padding: 10px 0;
   display: block;
   width: 41px;
-  text-align: center;
+  align-items: center;
   color: #fff;
   border: 1px solid;
   border-radius: 50%;
