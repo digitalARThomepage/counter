@@ -94,9 +94,9 @@ class TextScramble {
 
 const phrases = [
   'digital<b>ART</b>homepage launch is right around the corner',
-  'Add your NFT to eternal ARTboard',
-  'The largest NFT auction potential',
   'Take part in a historic event',
+  'Add your NFT to eternal <b>ART</b>board',
+  'The largest NFT auction potential',
   'Become part of the DAO NFT project',
   'Show your masterpiece to everyone, forever',
   'Based on smartcontract, stored on blockchain',
