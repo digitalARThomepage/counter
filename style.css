@@ -16,7 +16,7 @@ body {
 
 .wrapper {
   position: relative;
-  width: 100%;
+  width: 50%;
   background: url(https://gradients.mijo-design.com/public/uploads/files/r17.png) no-repeat center center/cover;
 }
 .wrapper:before {
@@ -135,20 +135,20 @@ footer {
 }
 
 .footer__links {
-  text-align: center;
+  align-items: center;
   list-style-type: none;
 }
 .footer__links li {
   display: inline-block;
 }
 .footer__links li:nth-of-type(n+2) {
-  margin-left: 12px;
+  margin-left: 10px;
 }
 .footer__links a {
   padding: 10px 0;
   display: block;
   width: 41px;
-  text-align: center;
+  align-items: center;
   color: #fff;
   border: 1px solid;
   border-radius: 50%;
