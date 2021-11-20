@@ -130,7 +130,7 @@ footer {
   display: inline-block;
 }
 .footer__links li:nth-of-type(n+2) {
-  margin-left: 12px;
+  margin-left: 0px;
 }
 .footer__links a {
   padding: 8px 0;
