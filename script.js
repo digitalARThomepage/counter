@@ -100,7 +100,7 @@ const phrases = [
   'Become part of the DAO NFT project',
   'Show your masterpiece to everyone, forever',
   'Based on smartcontract, stored on blockchain',
-  '07.12.2021 12:00 official launch'
+  'Official launch 07.12.2021 12:00 (GMT)'
 ]
 
 const el = document.querySelector('.text')
