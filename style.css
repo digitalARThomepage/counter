@@ -63,15 +63,18 @@ header {
 }
 .content form {
   margin: auto;
+  height: 100%;
   display: table;
 }
 .content input {
   float: left;
+  height: 100%;
   font-size: 16px;
   border: 1px solid #fff;
 }
 .content input[type=email] {
   padding: 12px;
+  height: 100%;
   background: #fff;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
