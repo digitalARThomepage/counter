@@ -50,7 +50,7 @@ header {
   left: 50%;
   text-align: center;
   color: #fff;
-  width: 100%;
+  width: 90%;
   transform: translate(-50%, -50%);
 }
 .content h1 {
@@ -116,7 +116,6 @@ header {
 header,
 .container {
   height: 60px;
-  width: 100%;
   justify-content: center;
   align-items: center;
   display: flex;
