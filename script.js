@@ -48,8 +48,8 @@ class TextScramble {
     for (let i = 0; i < length; i++) {
       const from = oldText[i] || ''
       const to = newText[i] || ''
-      const start = Math.floor(Math.random() * 60)
-      const end = start + Math.floor(Math.random() * 60)
+      const start = Math.floor(Math.random() * 40)
+      const end = start + Math.floor(Math.random() * 40)
       this.queue.push({ from, to, start, end })
     }
     cancelAnimationFrame(this.frameRequest)
@@ -99,7 +99,7 @@ const phrases = [
   'Get your own piece of the homepage',
   'Show your masterpiece for everyone, forever',
   'Build on smartcontract, deploy on blockchain',
-  'Your NFT on the eternal ARTboard'
+  'Your NFT'
 ]
 
 const el = document.querySelector('.text')
@@ -108,10 +108,9 @@ const fx = new TextScramble(el)
 let counter = 0
 const next = () => {
   fx.setText(phrases[counter]).then(() => {
-    setTimeout(next, 1000)
+    setTimeout(next, 800)
   })
   counter = (counter + 1) % phrases.length
 }
 
 next()
-/
