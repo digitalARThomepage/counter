@@ -149,39 +149,3 @@ footer {
   vertical-align: middle;
   font-size: 21px;
 }
-
-
-
-.container{
-  max-width:900px;
-  margin:0px auto;
-  padding:30px;
-}
-.count-time{
-		margin: 0px auto 30px;
-		padding: 0px;
-		list-style: none;
-		display: -ms-flexbox;
-		display: flex;
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.3);
-    background-image: linear-gradient(135deg, #E73D59 0%, #604AE6 100%);
-		li{
-			-ms-flex-preferred-size: 0;
-			flex-basis: 0;
-			-ms-flex-positive: 1;
-			flex-grow: 1;
-			max-width: 100%;
-			border-left: 1px solid #ccc;
-			text-align: center;
-      padding:8px;
-      color:#fff;
-			&:first-child{
-				border-left: 1px solid transparent;
-			}
-			>div{
-				font-size: 35px;
-			}
-		}
-	}
