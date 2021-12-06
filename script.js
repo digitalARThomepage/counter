@@ -1,6 +1,6 @@
 (() => {
   // Specify the deadline date
-  const deadlineDate = new Date('December 7, 2021 13:00:00').getTime();
+  const deadlineDate = new Date('December 7, 2021 21:00:00').getTime();
 
   // Cache all countdown boxes into consts
   const countdownDays = document.querySelector('.countdown__days .number');
@@ -100,7 +100,7 @@ const phrases = [
   'Become part of the DAO NFT project',
   'Show your masterpiece to everyone, forever',
   'Based on smartcontract, stored on blockchain',
-  'Official launch 07.12.2021 12:00 (GMT)'
+  'Official launch 07.12.2021 20:00 (GMT)'
 ]
 
 const el = document.querySelector('.text')
